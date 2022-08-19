@@ -1,0 +1,17 @@
+CRITICAL - 2022-08-19 00:14:23 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 D:\xammp\htdocs\ileap_portal_new\system\Model.php(952): CodeIgniter\Database\BaseBuilder->delete()
+#1 D:\xammp\htdocs\ileap_portal_new\app\Controllers\Admin.php(96): CodeIgniter\Model->delete(NULL)
+#2 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(914): App\Controllers\Admin->deleterole()
+#3 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xammp\htdocs\ileap_portal_new\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-19 00:34:41 --> You must use the "set" method to update an entry.
+#0 D:\xammp\htdocs\ileap_portal_new\system\Database\BaseBuilder.php(2415): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 D:\xammp\htdocs\ileap_portal_new\system\Model.php(864): CodeIgniter\Database\BaseBuilder->update()
+#2 D:\xammp\htdocs\ileap_portal_new\app\Controllers\Admin.php(291): CodeIgniter\Model->update(Array, Array)
+#3 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(914): App\Controllers\Admin->updatesession('1')
+#4 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xammp\htdocs\ileap_portal_new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

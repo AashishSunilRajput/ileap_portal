@@ -1,0 +1,142 @@
+CRITICAL - 2022-08-17 02:49:56 --> Access denied for user '****'@'localhost' (using password: YES)
+#0 D:\xammp\htdocs\ileap_portal_new\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xammp\htdocs\ileap_portal_new\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xammp\htdocs\ileap_portal_new\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xammp\htdocs\ileap_portal_new\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xammp\htdocs\ileap_portal_new\app\Controllers\Members_new.php(14): CodeIgniter\Model->findAll()
+#5 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(914): App\Controllers\Members_new->index()
+#6 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Members_new))
+#7 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xammp\htdocs\ileap_portal_new\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-17 04:36:19 --> Undefined property: App\Controllers\Demo::$respond
+#0 D:\xammp\htdocs\ileap_portal_new\app\Controllers\Demo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xammp\\htdocs...', 14, Array)
+#1 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(914): App\Controllers\Demo->demo1()
+#2 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demo))
+#3 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp\htdocs\ileap_portal_new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-17 04:37:03 --> Undefined property: App\Controllers\Demo::$respond
+#0 D:\xammp\htdocs\ileap_portal_new\app\Controllers\Demo.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xammp\\htdocs...', 13, Array)
+#1 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(914): App\Controllers\Demo->demo1()
+#2 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demo))
+#3 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp\htdocs\ileap_portal_new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-17 04:38:46 --> Undefined property: App\Controllers\Demo::$respond
+#0 D:\xammp\htdocs\ileap_portal_new\app\Controllers\Demo.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xammp\\htdocs...', 13, Array)
+#1 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(914): App\Controllers\Demo->demo1()
+#2 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demo))
+#3 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp\htdocs\ileap_portal_new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-17 04:39:01 --> Undefined property: App\Controllers\Demo::$respond
+#0 D:\xammp\htdocs\ileap_portal_new\app\Controllers\Demo.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xammp\\htdocs...', 13, Array)
+#1 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(914): App\Controllers\Demo->demo1()
+#2 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demo))
+#3 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp\htdocs\ileap_portal_new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-17 04:39:49 --> Class 'App\Controllers\Controller' not found
+#0 D:\xammp\htdocs\ileap_portal_new\system\Autoloader\Autoloader.php(365): require_once()
+#1 D:\xammp\htdocs\ileap_portal_new\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xammp\\htdocs...')
+#2 D:\xammp\htdocs\ileap_portal_new\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(865): class_exists('\\App\\Controller...', true)
+#6 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->startController()
+#7 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xammp\htdocs\ileap_portal_new\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-17 04:40:25 --> Undefined property: App\Controllers\Demo::$respond
+#0 D:\xammp\htdocs\ileap_portal_new\app\Controllers\Demo.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xammp\\htdocs...', 13, Array)
+#1 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(914): App\Controllers\Demo->demo1()
+#2 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demo))
+#3 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp\htdocs\ileap_portal_new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-17 04:41:23 --> Undefined property: App\Controllers\Demo::$respond
+#0 D:\xammp\htdocs\ileap_portal_new\app\Controllers\Demo.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xammp\\htdocs...', 13, Array)
+#1 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(914): App\Controllers\Demo->demo1()
+#2 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demo))
+#3 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp\htdocs\ileap_portal_new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-17 04:41:49 --> Undefined property: App\Controllers\Demo::$respond
+#0 D:\xammp\htdocs\ileap_portal_new\app\Controllers\Demo.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xammp\\htdocs...', 13, Array)
+#1 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(914): App\Controllers\Demo->demo1()
+#2 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demo))
+#3 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp\htdocs\ileap_portal_new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-17 04:42:19 --> Undefined property: App\Controllers\Demo::$respond
+#0 D:\xammp\htdocs\ileap_portal_new\app\Controllers\Demo.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xammp\\htdocs...', 13, Array)
+#1 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(914): App\Controllers\Demo->demo1()
+#2 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demo))
+#3 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp\htdocs\ileap_portal_new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-17 05:58:52 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in D:\xammp\htdocs\ileap_portal_new\app\Config\Routes.php on line 37
+#0 D:\xammp\htdocs\ileap_portal_new\app\Config\Routes.php(37): CodeIgniter\Router\RouteCollection->get('list1', 'filter" => "bas...', 'Invoice::list')
+#1 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(776): require('D:\\xammp\\htdocs...')
+#2 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp\htdocs\ileap_portal_new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-17 05:59:01 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in D:\xammp\htdocs\ileap_portal_new\app\Config\Routes.php on line 37
+#0 D:\xammp\htdocs\ileap_portal_new\app\Config\Routes.php(37): CodeIgniter\Router\RouteCollection->get('list1', 'filter" => "bas...', 'Invoice::list')
+#1 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(776): require('D:\\xammp\\htdocs...')
+#2 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp\htdocs\ileap_portal_new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-17 06:00:27 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in D:\xammp\htdocs\ileap_portal_new\app\Config\Routes.php on line 37
+#0 D:\xammp\htdocs\ileap_portal_new\app\Config\Routes.php(37): CodeIgniter\Router\RouteCollection->get('list1', Array, 'Invoice::list')
+#1 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(776): require('D:\\xammp\\htdocs...')
+#2 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp\htdocs\ileap_portal_new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-17 06:00:31 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in D:\xammp\htdocs\ileap_portal_new\app\Config\Routes.php on line 37
+#0 D:\xammp\htdocs\ileap_portal_new\app\Config\Routes.php(37): CodeIgniter\Router\RouteCollection->get('list1', Array, 'Invoice::list')
+#1 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(776): require('D:\\xammp\\htdocs...')
+#2 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp\htdocs\ileap_portal_new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-17 06:01:03 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in D:\xammp\htdocs\ileap_portal_new\app\Config\Routes.php on line 37
+#0 D:\xammp\htdocs\ileap_portal_new\app\Config\Routes.php(37): CodeIgniter\Router\RouteCollection->get('list1', Array, 'Invoice::list')
+#1 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(776): require('D:\\xammp\\htdocs...')
+#2 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xammp\htdocs\ileap_portal_new\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-17 06:05:11 --> basicauth filter must have a matching alias defined.
+#0 D:\xammp\htdocs\ileap_portal_new\system\Filters\Filters.php(324): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('basicauth')
+#1 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(369): CodeIgniter\Filters\Filters->enableFilter('basicauth', 'before')
+#2 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xammp\htdocs\ileap_portal_new\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-17 07:01:16 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in D:\xammp\htdocs\ileap_portal_new\app\Config\Routes.php on line 44
+#0 D:\xammp\htdocs\ileap_portal_new\app\Config\Routes.php(44): CodeIgniter\Router\RouteCollection->get('index', Array, 'Members::index')
+#1 D:\xammp\htdocs\ileap_portal_new\system\Router\RouteCollection.php(750): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#2 D:\xammp\htdocs\ileap_portal_new\app\Config\Routes.php(46): CodeIgniter\Router\RouteCollection->group('Members', Array, Object(Closure))
+#3 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(776): require('D:\\xammp\\htdocs...')
+#4 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xammp\htdocs\ileap_portal_new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-17 07:02:59 --> Argument 3 passed to CodeIgniter\Router\RouteCollection::get() must be of the type array or null, string given, called in D:\xammp\htdocs\ileap_portal_new\app\Config\Routes.php on line 44
+#0 D:\xammp\htdocs\ileap_portal_new\app\Config\Routes.php(44): CodeIgniter\Router\RouteCollection->get('index', Array, 'Members::index')
+#1 D:\xammp\htdocs\ileap_portal_new\system\Router\RouteCollection.php(750): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#2 D:\xammp\htdocs\ileap_portal_new\app\Config\Routes.php(46): CodeIgniter\Router\RouteCollection->group('Members', Array, Object(Closure))
+#3 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(776): require('D:\\xammp\\htdocs...')
+#4 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xammp\htdocs\ileap_portal_new\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-17 07:04:42 --> Class 'Config\BasicauthFilter' not found
+#0 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('Members/index', 'before')
+#1 D:\xammp\htdocs\ileap_portal_new\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\xammp\htdocs\ileap_portal_new\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
